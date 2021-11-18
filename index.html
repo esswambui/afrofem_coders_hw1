@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css-basics</title>
+
+    <!--Custom stylesheet-->
+    <link href="style.css" rel="stylesheet">
+    <!--favicon-->
     <link rel="icon" type="image/x-icon" href="/images/cssicon.ico">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    
+
+
 </head>
 <body>
     <header>
         <div class="header">
-            <img id="logo" src="https://img.favpng.com/13/12/20/logo-cascading-style-sheets-html-css-design-and-build-web-sites-css-1-graphic-design-png-favpng-DFW4rjy45QuMiuj81hV2HhPU6.jpg" alt="logo with the words CSS">
+            <div>
+            <img id="logo" src="./images/csslogo.png" alt="logo with the words CSS" width="50" height="25">
+            </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <h1>CSS Basics</h1>
         <hr>
         <h2>What is CSS?</h2>
-            <P>Like <a href="" target="-nlamkn">HTML</a>, CSS is not a programming language. It's not a markup language either. <strong>CSS is a style sheet language.</strong><strong>></strong> CSS is what you use to selectively style HTML elements.</P>
-        <h3>Anatomy of a CSS Ruleset</h3>
-        <img src="./images/cssruleset.png" width="600" height="200" >
-        <h4>Selector</h4>
-            <p>It defines the element(s) to be styled </p>
-            <h5>Types of selectors</h5>
+            <P>Like <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML</a>, CSS is not a programming language. It's not a markup language either. <strong>CSS is a style sheet language.</strong> CSS is what you use to selectively style HTML elements.</P>
+        <h2>Anatomy of a CSS Ruleset</h2>
+        <img class="center" src="./images/cssruleset.png" width="400" height="100" >
+        <h3>What is a Selector?</h3>
+            <p>A Selector defines the element(s) to be styled </p>
+            <h4>Types of selectors</h4>
             <table>
                 <thead>
                 <tr>
@@ -83,8 +96,17 @@
                 </tr>
             </tbody>
             </table>
-        <h5>Properties</h5>
-        <h5>Property Value</h5>
+        <h3>Properties</h3>
+        <p>These are ways in which you can style an HTML element. </p>
+        <h3>Property Value</h3>
+        <p>To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property.</p>
+        <h2>Always Remeber</h2>
+        <ul>
+            <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({})</li>
+            <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+            <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+           
+        </ul>
     </main>  
     <footer>
 
